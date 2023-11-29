@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "title": "Forced Tears",
+    "description": "Force obsidian to shed tears"
+  },
+  "parent": "minecraft:nether/obtain_crying_obsidian",
+  "criteria": {
+    "has recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "custom_recipes:crying_obsidian"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 2.25
+  }
+}

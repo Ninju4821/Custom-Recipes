@@ -1,0 +1,21 @@
+{
+  "display": {
+      "icon": {
+        "item": "minecraft:experience_bottle"
+      },
+      "title": "Experience To Go",
+      "description": "Store some experience in a bottle"
+    },
+    "parent": "minecraft:story/enchant_item",
+    "criteria": {
+      "has recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "custom_recipes:xp_bottle"
+        }
+      }
+    },
+    "rewards": {
+      "experience": 25
+  }
+}

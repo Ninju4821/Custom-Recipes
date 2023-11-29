@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "222",
+    "212",
+    "222"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:glass_bottle"
+    },
+    "2": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result": {
+    "item": "minecraft:experience_bottle"
+  }
+}

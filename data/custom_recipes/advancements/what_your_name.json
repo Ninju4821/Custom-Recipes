@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:name_tag"
+    },
+    "title": "What Should I Name You?",
+    "description": "Find a way to give your pet a name"
+  },
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "criteria": {
+    "has recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "custom_recipes:nametag"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0.85
+  }
+}

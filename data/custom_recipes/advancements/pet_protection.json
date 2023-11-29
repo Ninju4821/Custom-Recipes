@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_horse_armor"
+    },
+    "title": "Pet Protection",
+    "description": "Protect your pet horse, with its own set of iron armour"
+  },
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "criteria": {
+    "has recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "custom_recipes:iron_horse_armour"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 2.75
+  }
+}

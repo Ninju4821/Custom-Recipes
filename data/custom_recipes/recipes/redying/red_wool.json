@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "custom_recipes:wool"
+    }, {"item": "minecraft:red_dye"}], "result": {"item": "minecraft:red_wool"}}

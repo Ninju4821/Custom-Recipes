@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:map"
+    },
+    "title": "Map Making",
+    "description": "Use a paper and a compass to make a working map"
+  },
+  "parent": "minecraft:adventure/adventuring_time",
+  "criteria": {
+    "has recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "custom_recipes:locator_map"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 2.25
+  }
+}

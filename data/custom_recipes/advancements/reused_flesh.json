@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "title": "Reused Flesh",
+    "description": "Turn rotten flesh into something useful"
+  },
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "has recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "custom_recipes:leather_smelted"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

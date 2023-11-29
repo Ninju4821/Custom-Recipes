@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+          "item": "minecraft:enchanted_golden_apple"
+        },
+        "title": "Sub-Godly",
+        "description": "Learn how to go beyond normal capabilities."
+      },
+      "parent": "minecraft:story/enchant_item",
+      "criteria": {
+        "has recipe": {
+          "trigger": "minecraft:recipe_unlocked",
+          "conditions": {
+            "recipe": "custom_recipes:enchanted_golden_apple"
+          }
+        }
+      },
+      "rewards": {
+        "experience": 40
+    }
+  }

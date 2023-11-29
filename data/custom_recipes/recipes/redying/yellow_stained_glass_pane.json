@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "category": "building", "pattern": ["bbb", "bdb", "bbb"], "key": {"b": {"tag": "custom_recipes:glass_pane"}, "d": {"item": "minecraft:yellow_dye"}}, "result": {"item": "minecraft:yellow_stained_glass_pane", "count": 8}}

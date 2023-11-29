@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:bundle"
+      },
+      "title": "Component Pouch",
+      "description": "Make a pouch to hold your items."
+    },
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+      "has recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "custom_recipes:bundle"
+        }
+      }
+    },
+    "rewards": {
+      "experience": 15
+    }
+  }

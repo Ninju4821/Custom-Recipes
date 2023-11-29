@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:chainmail_chestplate"
+    },
+    "title": "Cover Me In Chainmail",
+    "description": "Make a full set of chainmail armour"
+  },
+  "parent": "minecraft:story/smelt_iron",
+  "criteria": {
+    "has recipe 1": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "custom_recipes:chainmail_helmet"
+      }
+    },
+    "has recipe 2": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "custom_recipes:chainmail_chestplate"
+      }
+    },
+    "has recipe 3": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "custom_recipes:chainmail_leggings"
+      }
+    },
+    "has recipe 4": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "custom_recipes:chainmail_boots"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 15
+  }
+}

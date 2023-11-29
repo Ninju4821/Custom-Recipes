@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "category": "building", "pattern": ["bbb", "bdb", "bbb"], "key": {"b": {"tag": "custom_recipes:glass"}, "d": {"item": "minecraft:lime_dye"}}, "result": {"item": "minecraft:lime_stained_glass", "count": 8}}
